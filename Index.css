@@ -1,0 +1,103 @@
+/* Note to students: Some properties are given to you to fill out,
+others you can modify as they stand, and if you have time,
+there are definitely some properties you should add!*/
+
+html {
+    height: 100%;
+  }
+  body {
+     width: 1200px;
+     height: 100%;
+     background-color: #80B7C0;
+     background: url(snow.png);
+     margin: auto;
+  }
+
+  header {
+      background-color: #d2ebff;
+      padding: 10px;
+      font-size: 30px;
+      display: block;
+      overflow: auto;
+  }
+  header div {
+      float: left;
+  }
+  /* h1 {
+    display: inline;  
+  }
+  h2 {
+    display: inline;  
+  } */
+  header img {
+      width: 300px;
+      Float: right;
+  }
+  nav {
+    background-color: #426574;
+      float: left;
+      width: 100%;
+  }
+  nav ul {
+      padding: 10px;
+      float: left;
+      border-bottom: 80 px solid #000000;
+      list-style-type: none;
+  }
+  nav li {
+      float: left;
+  }
+  nav li a {
+      display: block;
+      height: 25px;
+      padding: 12px 18px 8px 18px;
+      vertical-align: middle;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-size: x-large;
+  }
+  a {
+      color: black;
+  }
+  section {
+      width: 1150px;
+      height: 800px;
+      display: inline-block;
+      float: left;
+      border-left: 5px solid #426574;
+      border-right: 5px solid #426574;
+      border-bottom: 10px solid #426574;
+      background-color: #D2EBFF;
+      padding-left: 20px;
+      padding-right: 20px;
+      color: #426574;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-size: x-large; 
+
+    }
+  aside {
+      width: 17%;
+      display: inline-block;
+      background-color: #80B7C0;
+      padding:;
+      min-height: 100%;
+  }
+  article {
+      float: left;
+      margin: 20px 20px;
+      height: 220px;
+      width: 20%;
+  }
+  article img {
+      height: 180px;
+      width: 180px;
+  }
+  aside ul {
+      list-style-type: none;
+  }
+  footer {
+      width: 790px;
+      background-color: black;
+      color:;
+      clear: both;
+      display: block;
+  }
